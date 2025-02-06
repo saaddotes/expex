@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expex",
-    "slug": "expex",
+    "name": "quick-expense",
+    "slug": "quick-expense",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "05cbea09-6cd4-4b28-b515-4dc5b36f0940"
+      }
+    },
+    "owner": "cadetsaad"
   }
 }
